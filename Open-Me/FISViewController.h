@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FISViewController : UIViewController
+//@property (weak, nonatomic) IBOutlet UIStackView *columnOne;
+//@property (weak, nonatomic) IBOutlet UIStackView *columnTwo;
+//@property (weak, nonatomic) IBOutlet UIStackView *columnThree;
+//@property (weak, nonatomic) IBOutlet UIStackView *columnFour;
 
 @end

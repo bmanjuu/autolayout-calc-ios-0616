@@ -9,6 +9,7 @@
 #import "FISViewController.h"
 
 @interface FISViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *calculatorTextField;
 
 @end
 
@@ -19,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)clear:(id)sender {
 }
 
 @end
