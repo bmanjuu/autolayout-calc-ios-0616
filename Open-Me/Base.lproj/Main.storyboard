@@ -18,10 +18,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ" userLabel="Top View">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="529"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
                                         <rect key="frame" x="20" y="30" width="280" height="30"/>
+                                        <color key="backgroundColor" red="0.83283927242135247" green="0.81467560045057452" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <accessibility key="accessibilityConfiguration" label="displayTextField"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -37,14 +38,14 @@
                                     <constraint firstItem="yV0-KJ-CTc" firstAttribute="top" secondItem="Lvx-iX-YZJ" secondAttribute="top" constant="30" id="afT-Gv-QSp"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="z2U-mu-DWe">
-                                <rect key="frame" x="15" y="337" width="290" height="192"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="z2U-mu-DWe">
+                                <rect key="frame" x="20" y="350" width="280" height="178"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ojc-Rk-DJI">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="192"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Ojc-Rk-DJI">
+                                        <rect key="frame" x="0.0" y="0.0" width="55" height="178"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="1"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="1">
@@ -52,7 +53,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
-                                                <rect key="frame" x="0.0" y="48" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="45" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="4"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="4">
@@ -60,7 +61,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
-                                                <rect key="frame" x="0.0" y="96" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="89" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="7"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="7">
@@ -68,7 +69,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
-                                                <rect key="frame" x="0.0" y="144" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="134" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="0">
@@ -77,11 +78,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bgn-wf-eh5">
-                                        <rect key="frame" x="80" y="0.0" width="50" height="192"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="bgn-wf-eh5">
+                                        <rect key="frame" x="75" y="0.0" width="55" height="178"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="2"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="2">
@@ -89,7 +90,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
-                                                <rect key="frame" x="0.0" y="48" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="45" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="5">
@@ -97,7 +98,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
-                                                <rect key="frame" x="0.0" y="96" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="89" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="8"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="8">
@@ -105,7 +106,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
-                                                <rect key="frame" x="0.0" y="144" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="134" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="."/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title=".">
@@ -114,11 +115,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o29-2i-HgP">
-                                        <rect key="frame" x="160" y="0.0" width="50" height="192"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="o29-2i-HgP">
+                                        <rect key="frame" x="150" y="0.0" width="55" height="178"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="3">
@@ -126,7 +127,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
-                                                <rect key="frame" x="0.0" y="48" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="45" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="6"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="6">
@@ -134,7 +135,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
-                                                <rect key="frame" x="0.0" y="96" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="89" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="9"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="9">
@@ -142,7 +143,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
-                                                <rect key="frame" x="0.0" y="144" width="50" height="48"/>
+                                                <rect key="frame" x="0.0" y="134" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="="/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="=">
@@ -151,35 +152,35 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Nh-LX-OC3">
-                                        <rect key="frame" x="240" y="0.0" width="50" height="192"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="3Nh-LX-OC3">
+                                        <rect key="frame" x="225" y="0.0" width="55" height="178"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="/"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="/">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
-                                                <rect key="frame" x="0.0" y="48" width="50" height="48"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
+                                                <rect key="frame" x="0.0" y="45" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="x"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="x">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
-                                                <rect key="frame" x="0.0" y="96" width="50" height="48"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
+                                                <rect key="frame" x="0.0" y="89" width="55" height="45"/>
                                                 <accessibility key="accessibilityConfiguration" label="-"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="-">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
-                                                <rect key="frame" x="0.0" y="144" width="50" height="48"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
+                                                <rect key="frame" x="0.0" y="134" width="55" height="44"/>
                                                 <accessibility key="accessibilityConfiguration" label="+"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="+">
@@ -191,7 +192,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFD-HD-DfH">
-                                <rect key="frame" x="142" y="529" width="36" height="30"/>
+                                <rect key="frame" x="142" y="530" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clear:" destination="8mU-NI-3PM" eventType="touchUpInside" id="K1X-MR-j3i"/>
@@ -200,14 +201,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="z2U-mu-DWe" firstAttribute="bottom" secondItem="Lvx-iX-YZJ" secondAttribute="bottom" id="0Wk-xO-gPC"/>
-                            <constraint firstItem="jmo-tK-uKU" firstAttribute="top" secondItem="z2U-mu-DWe" secondAttribute="bottom" constant="39" id="3a1-DL-M8y"/>
+                            <constraint firstItem="z2U-mu-DWe" firstAttribute="bottom" secondItem="Lvx-iX-YZJ" secondAttribute="bottom" constant="-20" id="0Wk-xO-gPC"/>
+                            <constraint firstItem="jmo-tK-uKU" firstAttribute="top" secondItem="z2U-mu-DWe" secondAttribute="bottom" constant="40" id="3a1-DL-M8y"/>
                             <constraint firstItem="z2U-mu-DWe" firstAttribute="centerX" secondItem="EiG-5C-bgp" secondAttribute="centerX" id="41j-yT-Osf"/>
                             <constraint firstItem="Lvx-iX-YZJ" firstAttribute="centerX" secondItem="xFD-HD-DfH" secondAttribute="centerX" id="Bdf-ek-q1W"/>
                             <constraint firstItem="Lvx-iX-YZJ" firstAttribute="centerX" secondItem="z2U-mu-DWe" secondAttribute="centerX" id="Lw9-dg-deM"/>
                             <constraint firstItem="Lvx-iX-YZJ" firstAttribute="leading" secondItem="EiG-5C-bgp" secondAttribute="leading" id="OgO-jt-N5a"/>
-                            <constraint firstItem="z2U-mu-DWe" firstAttribute="width" secondItem="EiG-5C-bgp" secondAttribute="width" constant="-30" id="Ouu-of-5cL"/>
-                            <constraint firstItem="xFD-HD-DfH" firstAttribute="bottom" secondItem="z2U-mu-DWe" secondAttribute="bottom" constant="30" id="g5v-SE-bdO"/>
+                            <constraint firstItem="z2U-mu-DWe" firstAttribute="width" secondItem="EiG-5C-bgp" secondAttribute="width" constant="-40" id="Ouu-of-5cL"/>
+                            <constraint firstItem="xFD-HD-DfH" firstAttribute="bottom" secondItem="z2U-mu-DWe" secondAttribute="bottom" constant="32" id="g5v-SE-bdO"/>
+                            <constraint firstItem="z2U-mu-DWe" firstAttribute="top" secondItem="lHh-Dm-drs" secondAttribute="bottom" constant="330" id="qoe-Nd-nAX"/>
                             <constraint firstItem="xFD-HD-DfH" firstAttribute="centerX" secondItem="z2U-mu-DWe" secondAttribute="centerX" id="tPQ-6X-Ef1"/>
                             <constraint firstItem="Lvx-iX-YZJ" firstAttribute="top" secondItem="EiG-5C-bgp" secondAttribute="top" id="yP7-nx-px5"/>
                         </constraints>
@@ -219,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ec3-7u-aR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.375" y="142.6056338028169"/>
+            <point key="canvasLocation" x="1269" y="142"/>
         </scene>
     </scenes>
 </document>
